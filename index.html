@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girls in the Home - Quality Home Services</title>
+    <meta name="description" content="Professional home cleaning and maintenance services. Call 0402 604 489">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f5f5f5;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2vh 5vw;
+        }
+
+        .container {
+            max-width: min(30rem, 90vw);
+            width: 100%;
+            text-align: center;
+            max-height: 96vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .logo-container {
+            background: white;
+            border-radius: 1.25rem;
+            padding: 1rem 1.5rem;
+            box-shadow: 0 0.625rem 2.5rem rgba(0,0,0,0.1);
+            margin-bottom: 1rem;
+        }
+
+        .logo-image {
+            width: 100%;
+            max-width: min(25rem, 80vw);
+            max-height: 55vh;
+            height: auto;
+            object-fit: contain;
+            border-radius: 0.625rem;
+        }
+
+        .contact-info {
+            background: white;
+            border-radius: 1.25rem;
+            padding: 1.25rem;
+            box-shadow: 0 0.625rem 2.5rem rgba(0,0,0,0.1);
+        }
+
+        .phone-link {
+            display: inline-block;
+            font-size: clamp(1.2rem, 4vw, 1.5rem);
+            font-weight: 700;
+            color: #333;
+            text-decoration: none;
+            padding: 0.875rem 2rem;
+            background: linear-gradient(135deg, #fa709a, #fee140);
+            border-radius: 3rem;
+            transition: all 0.3s ease;
+            margin: 0.5rem 0;
+            box-shadow: 0 0.3125rem 1.25rem rgba(250, 112, 154, 0.3);
+        }
+
+        .phone-link:hover {
+            transform: translateY(-0.1875rem);
+            box-shadow: 0 0.5rem 1.875rem rgba(250, 112, 154, 0.4);
+        }
+
+        .tagline {
+            color: #666;
+            font-size: clamp(0.95rem, 3vw, 1.05rem);
+            margin-bottom: 0.5rem;
+        }
+
+        .subtitle {
+            color: #999;
+            font-size: clamp(0.85rem, 2.5vw, 0.9rem);
+            margin-top: 0.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .logo-container {
+                padding: 30px 20px;
+            }
+
+            .phone-link {
+                font-size: 1.5rem;
+                padding: 15px 30px;
+            }
+
+            .tagline {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo-container">
+            <img src="girls-in-the-home-logo.png" alt="Girls in the Home Logo" class="logo-image">
+        </div>
+
+        <div class="contact-info">
+            <p class="tagline">Quality Home Services You Can Trust</p>
+            <a href="tel:0402604489" class="phone-link">0402 604 489</a>
+            <p class="subtitle">Call us today for a free quote</p>
+        </div>
+    </div>
+</body>
+</html>
